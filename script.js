@@ -21,7 +21,7 @@ captureBtn.onclick = async () => {
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer sk-proj-',
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
